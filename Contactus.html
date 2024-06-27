@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: "Nunito Sans", sans-serif;
+        }
+        .header-top{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+        .htleft{
+            margin-right: 20px;
+
+        }
+        .htright{
+            margin-left: 200px;
+            display: flex;
+        }
+        .top-links{
+            display: inline;
+        }
+        .top-links a{
+            color: white;
+            text-decoration: none;
+            margin-right: 50px;
+        }
+        .header-down{
+            background-color: white;
+            color: black;
+        }
+        .usd:hover{
+            cursor: pointer;
+        }
+        .top-hover ul{
+            list-style: none;
+            display: inline-block;
+            background-color: white;
+            color: black;
+            /* position: absolute; */
+            top: 30px;
+            left: 0px;
+        }
+        .header-down{
+            display: flex;
+            justify-content: center;
+            /* justify-content: space-around; */
+            align-items: center;
+        }
+        .header-down img{
+            padding: 0px 30px;
+        }
+        .header-down ul{
+            list-style: none;
+            display: flex;
+            padding: 30px 15px;
+        }
+        .header-down ul li{
+            margin-left: 50px;
+        }
+        .header-option{
+            margin-left: 50px;
+        }
+        .header-option i{
+            margin-left: 30px;
+        } 
+        
+        
+        
+        
+        
+        .footer{
+            background-color: black;
+            /* width: rem; */
+            display: flex;
+            margin-bottom: 0px;
+            position: relative;
+            height: 400px;
+        }
+        .footer-box{
+            color: azure;
+            /* display: flex;
+            flex-direction: column; */
+            /* justify-content: center; */
+            /* align-content: center; */
+            width: 20%;
+            margin: 90px;
+            padding: 10px;
+            margin-top: 50px;
+        }
+        .footer-box h3{
+            font-family: "Kanit", sans-serif;
+            font-size: 40px;
+            margin-bottom: 20px;
+            
+        }
+        .footer-box p{
+            font-size: 20px;
+            padding: 9px;
+            color: rgb(180, 178, 178);
+        }
+        .shoppingbox{
+           
+            margin: 3px;
+            color: azure;
+            width: 20%;
+            text-align: left;
+            
+        }
+        .shoppingbox h3{
+            margin-top: 70px;
+            text-align: left;
+            font-size: 20px;
+            font-weight: 4px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 4px;
+        }
+        .shoppingbox ul li{
+        font-size: 15px;
+        text-align: left;
+        color: azure;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        list-style: none;
+        margin: 8px;
+        padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-top">
+            <div class="htleft">
+                <p>Free shipping, 30-day return or refund guarantee.</p>
+            </div>
+            <div class="htright">
+                <div class="top-links">
+                <a href="">SIGN IN</a>
+                <a href="">FAQS</a>
+            </div>
+            <div class="top-hover">
+                <span class="usd">USD</span>
+                <ul>
+                    <li>USD</li>
+                    <li>EUR</li>
+                    <li>USD</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="header-down">
+        <a href="Home.html"><img src="logo.png" alt="" ></a>
+        <ul>
+            <li>Home</li>
+            <li>Shop</li>
+            <li>Pages</li>
+            <li>Blog</li>
+            <li>Contact</li>
+        </ul>
+        <div class="header-option">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span>$0.00</span>
+        </div>
+    </div>
+    </div>
+    <div class="contact">
+        <div class="information">INFORMATION</div>
+        <div class="contactus">Contact Us</div>
+        <p>As you might expect of a company that began as a high-end interiors contractor, we pay strict attention.</p>
+        <ul>
+            <li>
+                <div class="cname">America</div>
+                <p class="ctext">195 E Parker Square Dr, Parker, CO 801 +43 982-314-0958</p>
+            </li>
+            <li>
+                <div class="cname">France</div>
+                <p class="ctext">109 Avenue Léon, 63 Clermont-Ferrand +12 345-423-9893</p>
+            </li>
+        </ul>
+    </div>
+    <div class="footer">
+        <div class="footer-box">
+            <h3>Male Fashion</h3>
+            <p>The customer is at the heart of our unique business model, which includes design.</p><br>
+            <div class="pay-icons">
+                <img src="https://themewagon.github.io/malefashion/img/payment.png" alt="" class="src"></div>        
+        </div>
+        <div class="shoppingbox"><h3><b>Shopping</b></h3>
+        <ul>
+            <li>Clothing Store</li>
+            <li>Trending Shoes</li>
+            <li>Accessories</li>
+            <li>Sale</li>
+        </ul>
+        </div>
+        <div class="shoppingbox"><h3>Shopping</h3>
+        <ul>
+            <li>Contact Us</li>
+            <li>Payment Methods</li>
+            <li>Delivary</li>
+            <li>Return & Exchanges</li>
+        </ul></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
