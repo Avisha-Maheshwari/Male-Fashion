@@ -50,12 +50,16 @@
         }
         .top-hover ul{
             list-style: none;
-            display: inline-block;
+            display: none; 
+            /* display: inline-block; */
             background-color: white;
             color: black;
             /* position: absolute; */
             top: 30px;
             left: 0px;
+        }
+        .usd:hover +.eur{
+            display: block;
         }
         .header-down{
             display: flex;
@@ -116,17 +120,13 @@
         .social i{
             margin-left: 30px;
         }
-        .box1{
-        }
-
         .banner{
             margin-top: 290px;
             padding-top: 100px;
             width: 90%;
             display: flex;
-            /* justify-content: center;
-            align-items: center; */
-         
+            justify-content: center;
+            align-items: center;
             position: relative;
         }
         .banner-image{
@@ -139,7 +139,6 @@
         .banner1 {
             top: 0px;
             left: 0px;
-
         }
         .banner1 img{
             margin-left: 220px;
@@ -164,6 +163,9 @@
         .banner2-text{
             position: relative;
         }
+        .product{
+            width: 90%;
+        }
         .product-text{
             display: flex;
             justify-content: center;
@@ -172,6 +174,13 @@
             font-size: 25px;
             padding: 20px;
             margin-bottom:30px ;
+        }
+        .product-filter{
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+            align-items: center;
+            
         }
     </style>
 </head>
@@ -188,7 +197,7 @@
             </div>
             <div class="top-hover">
                 <span class="usd">USD</span>
-                <ul>
+                <ul class="eur">
                     <li>USD</li>
                     <li>EUR</li>
                     <li>USD</li>
@@ -255,7 +264,9 @@
                 Hot Sale
             </div>
         </div>
-    </div>           
-    
+        <div class="product-filter">
+            
+        </div>
+    </div>
 </body>
 </html>
