@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+            font-family: "Nunito Sans", sans-serif;
+        }
+        .header-top{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+        .htleft{
+            margin-right: 20px;
+
+        }
+        .htright{
+            margin-left: 200px;
+            display: flex;
+        }
+        .top-links{
+            display: inline;
+        }
+        .top-links a{
+            color: white;
+            text-decoration: none;
+            margin-right: 50px;
+        }
+        .header-down{
+            background-color: white;
+            color: black;
+        }
+        .usd:hover{
+            cursor: pointer;
+        }
+        .top-hover ul{
+            list-style: none;
+            display: none; 
+            /* display: inline-block; */
+            background-color: white;
+            color: black;
+            /* position: absolute; */
+            top: 30px;
+            left: 0px;
+        }
+        .usd:hover +.eur{
+            display: block;
+        }
+        .header-down{
+            display: flex;
+            justify-content: center;
+            /* justify-content: space-around; */
+            align-items: center;
+        }
+        .header-down img{
+            padding: 0px 30px;
+        }
+        .header-down ul{
+            list-style: none;
+            display: flex;
+            padding: 30px 15px;
+        }
+        .header-down ul li{
+            margin-left: 50px;
+        }
+        .header-option{
+            margin-left: 50px;
+        }
+        .header-option i{
+            margin-left: 30px;
+        }
+        .poster-image img{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+        .poster-up{
+            z-index: 1;
+            position: relative;
+            left: 200px;
+            top: 250px;
+            width: 30%;
+        }
+        .poster-up h6{
+            color: red;
+            margin: 0px 0px 28px;
+            font-size: 14px;
+        }
+        .poster-up h2{
+            margin: 0px 0px 30px;
+            font-size: 48px;
+        }
+        .poster-up p{
+            font-size: 16px;
+            margin-bottom: 35px;
+        }
+        .poster-up button{
+            background-color: black;
+            color: white;
+            padding: 14px 30px ;
+        }
+        .social{
+            margin-top: 100px;
+        }
+        .social i{
+            margin-left: 30px;
+        }
+        .banner{
+            margin-top: 290px;
+            padding-top: 100px;
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .banner-image{
+            width: 100%;
+            /* padding-right: 15px;
+            padding-left: 15px; */
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .banner1 {
+            top: 0px;
+            left: 0px;
+        }
+        .banner1 img{
+            margin-left: 220px;
+        }
+        .banner1-text{
+            position: relative;
+            bottom: 250px;
+            width: 300px;
+        }
+        .clothing{
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .banner1-text a{
+            text-decoration: none;
+            color: black;
+        }
+        .banner2 img{
+            margin-left: 220px;
+            margin-bottom:800px;
+        }
+        .banner2-text{
+            position: relative;
+        }
+        .product{
+            width: 90%;
+        }
+        .product-text{
+            display: flex;
+            justify-content: center;
+            justify-content: space-evenly;
+            align-items: center;
+            font-size: 25px;
+            padding: 20px;
+            margin-bottom:30px ;
+        }
+        .product-filter{
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-top">
+            <div class="htleft">
+                <p>Free shipping, 30-day return or refund guarantee.</p>
+            </div>
+            <div class="htright">
+                <div class="top-links">
+                <a href="">SIGN IN</a>
+                <a href="">FAQS</a>
+            </div>
+            <div class="top-hover">
+                <span class="usd">USD   <i class="fa-solid fa-angle-down"></i></span>
+                <ul class="eur">
+                    <li>USD</li>
+                    <li>EUR</li>
+                    <li>USD </li>
+                </ul>
+               
+            </div>
+        </div>
+    </div>
+    <div class="header-down">
+        <a href="Home.html"><img src="logo.png" alt="" ></a>
+        <ul>
+            <li>Home</li>
+            <li>Shop</li>
+            <li>Pages</li>
+            <li>Blog</li>
+            <li>Contact</li>
+        </ul>
+        <div class="header-option">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-bag-shopping"></i>
+        <span>$0.00</span>
+    </div>
+    </div>
+    </div>
+    <div class="poster-image">
+        <img src="hero-1.jpg" alt="">
+        <div class="poster-up">
+            <h6>SUMMER COLLECTION</h6>
+            <h2>Fall - Winter Collection 2030</h2>
+            <p>A specialist label creating luxury essentials. Ethically crafted with an unwavering commitment to exceptional </p>
+            <a href=""><button>SHOP NOW <i class="fa-solid fa-arrow-right"></i></button></a>
+            <div class="social">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="banner1">
+            <img src="banner-1.jpg" alt="">
+            <div class="banner1-text">
+                <div class="clothing">Clothing Collections 2030</div>
+                <a href="#">SHOP NOW</a>
+                </div>
+            </div>
+            <div class="banner2">
+                <!-- <img src="banner-2.jpg" alt="">
+                <div class="banner2-text">
+                <div class="accessories">Accessories</div>
+                <a href="#">SHOP NOW</a> -->
+        </div>
+    </div> 
+    <div class="product">
+        <div class="product-text">
+            <div class="bestsellesrs">
+                Best Sellers
+            </div>
+            <div class="newarrivals">
+                New Arrivals
+            </div>
+            <div class="hotsales">
+                Hot Sale
+            </div>
+        </div>
+        <div class="product-filter">
+            
+        </div>
+    </div>
+</body>
+</html>
